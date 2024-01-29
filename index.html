@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subir y Descargar Archivos</title>
+</head>
+<body>
+    <h1>Subir Archivos</h1>
+    <form id="fileForm" enctype="multipart/form-data">
+        <input type="file" name="file" id="fileInput" />
+        <button type="button" onclick="uploadFile()">Subir Archivo</button>
+    </form>
+
+    <h1>Descargar Archivos</h1>
+    <ul id="fileList"></ul>
+
+    <script src="client.js"></script>
+</body>
+</html>
+
